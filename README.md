@@ -5,7 +5,7 @@
 GitHub repository project
 
 ### Description
-Udacity's Programming for Data Science final project submission. Using GitHub to track changes to bikeshare.py files
+Udacity's Programming for Data Science final project submission. Using GitHub to track changes to all bikeshare project documentation from the Introduction to Python module
 
 ### Files used
 bikeshare.py
@@ -14,4 +14,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Udacity
+Udacity,
