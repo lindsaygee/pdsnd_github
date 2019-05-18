@@ -1,15 +1,14 @@
-### Date created
-05/18/2019
+Date created
+Include the date you created this project and README file.
 
-### Project Title
-GitHub repository project
+Project Title
+Replace the Project Title
 
-### Description
-Udacity's Programming for Data Science final project submission. Using GitHub to track changes to bikeshare.py files
+Description
+Describe what your project is about and what it does
 
-### Files used
-bikeshare.py
-first_script.py
+Files used
+Include the files used
 
-### Credits
+Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
