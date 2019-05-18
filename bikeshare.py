@@ -55,9 +55,9 @@ def time_view():
             return 'none'
         period = input("\n Please choose a filter option between 'month', 'day' of the week, or none \n")
 def get_month(m):
-    """ 
+    """
     Asks user to specify a city to analyze.
-        Returns:        
+        Returns:
             (str) month - name of the month to filter by, or "all" to apply no month filter
     """
     if m == 'month':
@@ -172,12 +172,6 @@ def popular_trip(df):
     print('\n* 2. Part c What was the most popular trip from start to end?')
     return result
 
-def bike_users(df):
-    """What are the counts of each user type?
-    """
-    print('\n* 4. Part a Types of users: subscribers, customers, others\n')
-    return df['User Type'].value_counts()
-
 def gender_data(df):
     """What are the counts of gender?"""
     try:
@@ -185,6 +179,12 @@ def gender_data(df):
         return df['Gender'].value_counts()
     except:
         print('There is no gender data for this city.')
+
+def bike_users(df):
+    """What are the counts of each user type?
+    """
+    print('\n* 4. Part a Types of users: subscribers, customers, others\n')
+    return df['User Type'].value_counts()
 
 def birth_years(df):
     """earliest, most recent, most common year of birth
