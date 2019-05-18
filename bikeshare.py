@@ -18,10 +18,10 @@ def get_city():
     while True:
         if city == 'Chicago':
             return 'chicago'
-        elif city == 'New York City':
-            return 'new york city'
         elif city == 'Washington':
             return 'washington'
+        elif city == 'New York City':
+            return 'new york city'
         elif city == 'new york city':
             return 'new york city'
         elif city == 'washington':
