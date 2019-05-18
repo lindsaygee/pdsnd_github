@@ -55,9 +55,9 @@ def time_view():
             return 'none'
         period = input("\n Please choose a filter option between 'month', 'day' of the week, or none \n")
 def get_month(m):
-    """ 
+    """
     Asks user to specify a city to analyze.
-        Returns:        
+        Returns:
             (str) month - name of the month to filter by, or "all" to apply no month filter
     """
     if m == 'month':
@@ -212,7 +212,7 @@ def raw_stats(df):
     df = df.drop(['month', 'day_of_month'], axis = 1)
     row_index = 0
 
-    see_data = input("\nWould you like to see 5 rows of the raw data used to compute the data? Please write 'yes' or 'no' \n").lower()
+    see_data = input("\nWould you like to see 5 rows of the raw data used to calculate the statistics? Please write 'yes' or 'no' \n").lower()
     while True:
         if see_data == 'no':
             return
